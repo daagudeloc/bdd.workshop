@@ -9,7 +9,7 @@ namespace bdd.workshop.calculator.tests.xunit
         [Trait("TestType", "UT")]
         public void BasicSquareRoot()
         {
-            int baseInt = 4;
+            double baseInt = 4;
             int root = 2;
             Assert.True(Operator.SqrRoot(baseInt) == root);
         }
